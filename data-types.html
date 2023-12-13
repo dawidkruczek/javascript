@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Data Types</p>
+
+    <script>
+      let message = "String variable";
+      message = 1234;
+
+      let stringNumber = "1";
+      console.log(message + stringNumber);
+
+      let infinity = Infinity;
+
+      console.log("test" / 3);
+
+      //BigInt
+      console.log(9007199254740991 + 1); // 9007199254740992
+      console.log(9007199254740991 + 2);
+      console.log(9007199254740991n + 2n);
+
+      //strings
+
+      let name = "Dawid";
+      let myFriend = "Tomek";
+      let extraPhrase = `${name} + ' & ' + ${myFriend}`;
+
+      console.log(extraPhrase);
+
+      let boolTrueVar = true;
+      let boolFalseVar = false;
+
+      let today = null; //empty, nothing, unkown value
+      let tomorrow; //value isn't assigned
+      console.log(tomorrow);
+
+      let aTypeof = typeof "dsad";
+      console.log(typeof 10);
+      console.log(aTypeof);
+    </script>
+  </body>
+</html>
