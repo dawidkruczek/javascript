@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Type conversion</p>
+    <script>
+      let value = true;
+      console.log(typeof value + " " + value);
+
+      value = String(value);
+      console.log(typeof value + " " + value);
+
+      value = 10;
+      console.log(typeof value + " " + value);
+
+      value = String(value);
+      console.log(typeof value + " " + value);
+
+      let divisionValue = "6" / "7";
+      console.log(typeof divisionValue + " " + divisionValue);
+
+      let stringNumber = "2023";
+      numberValue = Number(stringNumber);
+      console.log(typeof stringNumber + " " + stringNumber);
+
+      let age = Number("I'm very old");
+      console.log(typeof age + " " + age);
+
+      let nullNumber = Number(null);
+      console.log(nullNumber);
+
+      let booleanZeroTrue = Boolean("0");
+      let booleanZeroFalse = Boolean(0);
+      let booleanEmpty = Boolean("");
+      let booleanNonEmpty = Boolean("Non Empty");
+      console.log(booleanZeroTrue + " " + booleanZeroFalse);
+      console.log(booleanEmpty + " " + booleanNonEmpty);
+      alert(`Boolean(" ") is a:` + Boolean(" "));
+    </script>
+  </body>
+</html>
