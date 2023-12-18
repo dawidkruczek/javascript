@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Nullish coalescing operator</p>
+
+    <script>
+      let user;
+
+      alert(user ?? "root");
+
+      let name;
+      let surname;
+      let defaultUser = "default";
+      alert(name ?? surname ?? defaultUser);
+
+      let height = 0;
+
+      console.log(height || 100);
+      console.log(height ?? 199);
+
+      console.log(100 * null);
+    </script>
+  </body>
+</html>
